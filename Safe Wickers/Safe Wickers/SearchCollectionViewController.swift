@@ -12,7 +12,7 @@ import MapKit
 protocol HandleMapSearch {
     func createSearchLocation(placemark:MKPlacemark)
 }
-
+//this is a brench
 private let reuseIdentifier = "activityCell"
 private var sectionInsets = UIEdgeInsets()
 private let itemsPerRow: CGFloat = 3
@@ -153,7 +153,12 @@ class SearchCollectionViewController: UIViewController, UISearchBarDelegate,UICo
         let location = locations.last!
         currentLocation = location.coordinate
     }
-
+    func addannotation(){
+        
+        
+        
+        
+    }
     /*
     // MARK: - Navigation
 
